@@ -1,0 +1,874 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="13136637-6236-4332-a377-b8dfaa6398f7" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/.bowerrc" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.env.example" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.gitattributes" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.idea/deployment.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.idea/laravel-admin.iml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.idea/php.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.idea/phpRuntime.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.idea/webServers.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/README" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/README.md" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/app/Console/Commands/Inspire.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/app/Console/Kernel.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/app/Events/Event.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/app/Exceptions/Handler.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/Admin/CategoryController.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/Admin/DashboardController.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/Admin/PermissionController.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/Admin/RoleController.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/Admin/ServiceController.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/Admin/UserController.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/AdminController.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/Auth/ForgotPasswordController.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/Auth/LoginController.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/Auth/RegisterController.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/Auth/ResetPasswordController.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/CaptchaController.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/Controller.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/HomeController.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Kernel.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Middleware/Admin.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Middleware/Api.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Middleware/AuthOnce.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Middleware/Authenticate.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Middleware/EncryptCookies.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Middleware/RedirectIfAuthenticated.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Middleware/VerifyCsrfToken.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Requests/Admin/CategoryRequest.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Requests/Admin/RoleRequest.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Requests/Admin/ServiceRequest.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Requests/Admin/UserRequest.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Requests/Request.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Requests/UploadRequest.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/app/Http/routes.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/app/Jobs/Job.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/app/Jobs/SendMail.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/app/Listeners/.gitkeep" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/app/Models/Category.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/app/Models/Permission.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/app/Models/Role.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/app/Models/Service.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/app/Models/User.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/app/Policies/.gitkeep" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/app/Providers/AppServiceProvider.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/app/Providers/AuthServiceProvider.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/app/Providers/EventServiceProvider.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/app/Providers/RouteServiceProvider.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/artisan" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/bootstrap/app.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/bootstrap/autoload.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/bootstrap/cache/.gitignore" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/bower.json" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/composer.json" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/config/app.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/config/auth.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/config/broadcasting.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/config/cache.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/config/captcha.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/config/compile.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/config/database.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/config/datatables.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/config/debugbar.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/config/entrust.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/config/filesystems.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/config/image.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/config/mail.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/config/queue.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/config/services.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/config/session.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/config/view.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/database/.gitignore" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/database/factories/ModelFactory.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/database/migrations/.gitkeep" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/database/migrations/2017_05_23_114608_create_users_table.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/database/migrations/2017_05_23_132446_entrust_setup_tables.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/database/seeds/.gitkeep" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/database/seeds/DatabaseSeeder.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/database/seeds/RoleUserTableSeeder.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/database/seeds/RolesTableSeeder.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/database/seeds/UsersTableSeeder.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/gulpfile.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/laraveladmin.database.sql" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/package.json" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/phpunit.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/.htaccess" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/MP_verify_4TFEzxL69ppeinx8.txt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/css/admin.css" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/css/font/summernote.eot" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/css/font/summernote.ttf" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/css/font/summernote.woff" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/css/images/controls.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/css/images/loading.gif" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/css/login.css" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/css/main.css" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/css/register.css" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/css/site.css" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/css/swiper.css" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/favicon.ico" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/favicon/android-icon-144x144.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/favicon/android-icon-192x192.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/favicon/android-icon-36x36.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/favicon/android-icon-48x48.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/favicon/android-icon-72x72.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/favicon/android-icon-96x96.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/favicon/apple-icon-114x114.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/favicon/apple-icon-120x120.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/favicon/apple-icon-144x144.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/favicon/apple-icon-152x152.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/favicon/apple-icon-180x180.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/favicon/apple-icon-57x57.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/favicon/apple-icon-60x60.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/favicon/apple-icon-72x72.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/favicon/apple-icon-76x76.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/favicon/apple-icon-precomposed.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/favicon/apple-icon.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/favicon/browserconfig.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/favicon/favicon-16x16.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/favicon/favicon-32x32.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/favicon/favicon-96x96.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/favicon/favicon.ico" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/favicon/manifest.json" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/favicon/ms-icon-144x144.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/favicon/ms-icon-150x150.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/favicon/ms-icon-310x310.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/favicon/ms-icon-70x70.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/fonts/FontAwesome.otf" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/fonts/fontawesome-webfont.eot" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/fonts/fontawesome-webfont.svg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/fonts/fontawesome-webfont.ttf" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/fonts/fontawesome-webfont.woff" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/fonts/glyphicons-halflings-regular.eot" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/fonts/glyphicons-halflings-regular.svg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/fonts/glyphicons-halflings-regular.ttf" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/fonts/glyphicons-halflings-regular.woff" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/fonts/glyphicons-halflings-regular.woff2" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/image/20170515143919_4092.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/image/a.jpeg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/image/b.jpeg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/image/banner.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/image/best.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/image/beston.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/image/cata.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/image/check.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/image/checkfail.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/image/edit.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/image/eye-black.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/image/goback.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/image/index.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/image/jinb.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/image/link.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/image/login/login.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/image/login/logintitle.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/image/login/pass.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/image/login/user.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/image/login_img/aaa.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/image/login_img/body.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/image/login_img/bodybg.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/image/login_img/check.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/image/login_img/checkon.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/image/login_img/loginbg.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/image/login_img/loginleft.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/image/login_img/logintitle.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/image/login_img/logo.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/image/login_img/logo2.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/image/login_img/logoa.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/image/login_img/logoimg.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/image/login_img/logoimg.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/image/login_img/logoimg00.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/image/login_img/logoimg1.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/image/login_img/logoimgf.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/image/login_img/pass.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/image/login_img/transparent.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/image/login_img/u37.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/image/login_img/user.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/image/login_img/user.psd" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/image/loginbg.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/image/logo.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/image/m1.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/image/m2.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/image/m3.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/image/pro01.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/image/pro02.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/image/pro03.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/image/search.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/image/search1.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/image/titlebg.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/image/tongb.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/image/yinb.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/image/zhuce.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/image/一等奖.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/image/三等奖.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/image/二等奖.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/img/bootstrap-colorpicker/alpha-horizontal.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/img/bootstrap-colorpicker/alpha.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/img/bootstrap-colorpicker/hue-horizontal.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/img/bootstrap-colorpicker/hue.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/img/bootstrap-colorpicker/saturation.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/img/cgpi.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/img/logo_transparent.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/img/pattern.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/index.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/js/admin.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/js/jquery-1.8.3.min.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/js/jquery.spinner.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/js/site.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/js/swiper.min.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/js/zepto.min.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/robots.txt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/web.config" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/resources/assets/sass/app.scss" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/resources/lang/en/admin/admin.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/resources/lang/en/admin/categorys.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/resources/lang/en/admin/language.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/resources/lang/en/admin/modal.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/resources/lang/en/admin/nav.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/resources/lang/en/admin/permissions.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/resources/lang/en/admin/roles.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/resources/lang/en/admin/services.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/resources/lang/en/admin/users.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/resources/lang/en/auth.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/resources/lang/en/email.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/resources/lang/en/pagination.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/resources/lang/en/passwords.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/resources/lang/en/photos.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/resources/lang/en/reminders.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/resources/lang/en/site/login.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/resources/lang/en/site/register.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/resources/lang/en/site/site.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/resources/lang/en/site/user.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/resources/lang/en/site/verify.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/resources/lang/en/table.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/resources/lang/en/validation.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/resources/lang/zh-CN/admin/admin.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/resources/lang/zh-CN/admin/language.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/resources/lang/zh-CN/admin/modal.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/resources/lang/zh-CN/admin/nav.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/resources/lang/zh-CN/admin/permissions.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/resources/lang/zh-CN/admin/roles.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/resources/lang/zh-CN/admin/users.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/resources/lang/zh-CN/auth.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/resources/lang/zh-CN/email.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/resources/lang/zh-CN/pagination.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/resources/lang/zh-CN/passwords.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/resources/lang/zh-CN/photos.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/resources/lang/zh-CN/reminders.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/resources/lang/zh-CN/site/login.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/resources/lang/zh-CN/site/register.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/resources/lang/zh-CN/site/site.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/resources/lang/zh-CN/site/user.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/resources/lang/zh-CN/site/verify.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/resources/lang/zh-CN/table.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/resources/lang/zh-CN/validation.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/resources/views/admin/category/create_edit.blade.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/resources/views/admin/category/delete.blade.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/resources/views/admin/category/index.blade.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/resources/views/admin/dashboard/index.blade.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/resources/views/admin/layouts/default_name_column.blade.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/resources/views/admin/layouts/modal.blade.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/resources/views/admin/permission/create_edit.blade.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/resources/views/admin/permission/delete.blade.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/resources/views/admin/permission/index.blade.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/resources/views/admin/role/create_edit.blade.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/resources/views/admin/role/delete.blade.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/resources/views/admin/role/index.blade.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/resources/views/admin/service/create_edit.blade.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/resources/views/admin/service/delete.blade.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/resources/views/admin/service/index.blade.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/resources/views/admin/user/create_edit.blade.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/resources/views/admin/user/delete.blade.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/resources/views/admin/user/index.blade.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/resources/views/auth/emails/password.blade.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/resources/views/auth/login.blade.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/resources/views/auth/passwords/email.blade.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/resources/views/auth/passwords/reset.blade.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/resources/views/auth/register.blade.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/resources/views/emails/auth/password.blade.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/resources/views/emails/auth/verify.blade.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/resources/views/errors/503.blade.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/resources/views/home.blade.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/resources/views/layouts/app.blade.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/resources/views/layouts/guest.blade.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/resources/views/welcome.blade.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/server.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/storage/app/.gitignore" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/storage/app/public/.gitignore" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/storage/debugbar/.gitignore" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/storage/framework/.gitignore" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/storage/framework/cache/.gitignore" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/storage/framework/sessions/.gitignore" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/storage/framework/views/.gitignore" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/storage/logs/.gitignore" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/tests/ExampleTest.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/tests/TestCase.php" afterPath="" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings" synchronizationState="SYNCHRONIZE">
+    <pharConfigPath>$PROJECT_DIR$/composer.json</pharConfigPath>
+  </component>
+  <component name="FileEditorManager">
+    <leaf>
+      <file leaf-file-name="CategoryController.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/Http/Controllers/Admin/CategoryController.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="176">
+              <caret line="42" column="50" lean-forward="false" selection-start-line="42" selection-start-column="8" selection-end-line="42" selection-end-column="50" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Category.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/Models/Category.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="374">
+              <caret line="18" column="5" lean-forward="false" selection-start-line="15" selection-start-column="4" selection-end-line="18" selection-end-column="5" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="create_edit.blade.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/resources/views/admin/category/create_edit.blade.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-425">
+              <caret line="16" column="18" lean-forward="false" selection-start-line="16" selection-start-column="18" selection-end-line="16" selection-end-column="18" />
+              <folding>
+                <marker date="1523482458360" expanded="true" signature="9:30" ph="..." />
+                <marker date="1523482458360" expanded="true" signature="59:68" ph="..." />
+                <marker date="1523482458360" expanded="true" signature="75:91" ph="..." />
+                <marker date="1523482458360" expanded="true" signature="96:237" ph="..." />
+                <marker date="1523482458360" expanded="true" signature="250:358" ph="..." />
+                <marker date="1523482458360" expanded="true" signature="549:645" ph="..." />
+                <marker date="1523482458360" expanded="true" signature="703:763" ph="..." />
+                <marker date="1523482458360" expanded="true" signature="849:959" ph="..." />
+                <marker date="1523482458360" expanded="true" signature="1017:1084" ph="..." />
+                <marker date="1523482458360" expanded="true" signature="1342:1375" ph="..." />
+                <marker date="1523482458360" expanded="true" signature="1539:1571" ph="..." />
+                <marker date="1523482458360" expanded="true" signature="1751:1767" ph="..." />
+                <marker date="1523482458360" expanded="true" signature="1791:1818" ph="..." />
+                <marker date="1523482458360" expanded="true" signature="1865:1893" ph="..." />
+                <marker date="1523482458360" expanded="true" signature="1974:1989" ph="..." />
+                <marker date="1523482458360" expanded="true" signature="2012:2021" ph="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="create_edit.blade.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/resources/views/admin/service/create_edit.blade.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="792">
+              <caret line="36" column="13" lean-forward="false" selection-start-line="36" selection-start-column="13" selection-end-line="36" selection-end-column="13" />
+              <folding>
+                <marker date="1526072552497" expanded="true" signature="9:30" ph="..." />
+                <marker date="1526072552497" expanded="true" signature="59:68" ph="..." />
+                <marker date="1526072552497" expanded="true" signature="75:90" ph="..." />
+                <marker date="1526072552497" expanded="true" signature="95:233" ph="..." />
+                <marker date="1526072552497" expanded="true" signature="246:353" ph="..." />
+                <marker date="1526072552497" expanded="true" signature="522:571" ph="..." />
+                <marker date="1526072552497" expanded="true" signature="591:677" ph="..." />
+                <marker date="1526072552497" expanded="true" signature="735:795" ph="..." />
+                <marker date="1526072552497" expanded="true" signature="986:1086" ph="..." />
+                <marker date="1526072552497" expanded="true" signature="1144:1211" ph="..." />
+                <marker date="1526072552497" expanded="true" signature="1409:1495" ph="..." />
+                <marker date="1526072552497" expanded="true" signature="1553:1613" ph="..." />
+                <marker date="1526072552497" expanded="true" signature="1777:1793" ph="..." />
+                <marker date="1526072552497" expanded="true" signature="1777:3804" ph="..." />
+                <marker date="1526072552497" expanded="true" signature="1794:1855" ph="..." />
+                <marker date="1526072552497" expanded="true" signature="1809:1853" ph="..." />
+                <marker date="1526072552497" expanded="true" signature="1907:1953" ph="..." />
+                <marker date="1526072552497" expanded="true" signature="1977:2073" ph="..." />
+                <marker date="1526072552497" expanded="true" signature="2185:2208" ph="..." />
+                <marker date="1526072552497" expanded="true" signature="2239:2256" ph="..." />
+                <marker date="1526072552497" expanded="true" signature="2339:2354" ph="..." />
+                <marker date="1526072552497" expanded="true" signature="2360:2377" ph="..." />
+                <marker date="1526072552497" expanded="true" signature="2500:2515" ph="..." />
+                <marker date="1526072552497" expanded="true" signature="2521:2591" ph="..." />
+                <marker date="1526072552497" expanded="true" signature="2596:2613" ph="..." />
+                <marker date="1526072552497" expanded="true" signature="2968:3001" ph="..." />
+                <marker date="1526072552497" expanded="true" signature="3165:3197" ph="..." />
+                <marker date="1526072552497" expanded="true" signature="3377:3392" ph="..." />
+                <marker date="1526072552497" expanded="true" signature="3393:3445" ph="{...}" />
+                <marker date="1526072552497" expanded="true" signature="3416:3443" ph="..." />
+                <marker date="1526072552497" expanded="true" signature="3490:3518" ph="..." />
+                <marker date="1526072552497" expanded="true" signature="3599:3614" ph="..." />
+                <marker date="1526072552497" expanded="true" signature="3637:3646" ph="..." />
+                <marker date="1526072552497" expanded="true" signature="3702:3770" ph="..." />
+                <marker date="1526072552497" expanded="true" signature="3715:3769" ph="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="delete.blade.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/resources/views/admin/service/delete.blade.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="374">
+              <caret line="17" column="0" lean-forward="true" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
+              <folding>
+                <marker date="1522086307894" expanded="true" signature="9:30" ph="..." />
+                <marker date="1522086307894" expanded="true" signature="41:50" ph="..." />
+                <marker date="1522086307894" expanded="true" signature="56:197" ph="..." />
+                <marker date="1522086307894" expanded="true" signature="257:294" ph="..." />
+                <marker date="1522086307894" expanded="true" signature="416:448" ph="..." />
+                <marker date="1522086307894" expanded="true" signature="571:604" ph="..." />
+                <marker date="1522086307894" expanded="true" signature="641:656" ph="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="delete.blade.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/resources/views/admin/category/delete.blade.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.blade.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/resources/views/admin/category/index.blade.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding>
+                <marker date="1523640515387" expanded="true" signature="9:44" ph="..." />
+                <marker date="1523640515387" expanded="true" signature="81:88" ph="..." />
+                <marker date="1523640515387" expanded="true" signature="93:129" ph="..." />
+                <marker date="1523640515387" expanded="true" signature="178:184" ph="..." />
+                <marker date="1523640515387" expanded="true" signature="310:339" ph="..." />
+                <marker date="1523640515387" expanded="true" signature="377:412" ph="..." />
+                <marker date="1523640515387" expanded="true" signature="685:714" ph="..." />
+                <marker date="1523640515387" expanded="true" signature="746:780" ph="..." />
+                <marker date="1523640515387" expanded="true" signature="894:919" ph="..." />
+                <marker date="1523640515387" expanded="true" signature="1110:1141" ph="..." />
+                <marker date="1523640515387" expanded="true" signature="1195:1233" ph="..." />
+                <marker date="1523640515387" expanded="true" signature="1286:1323" ph="..." />
+                <marker date="1523640515387" expanded="true" signature="1376:1413" ph="..." />
+                <marker date="1523640515387" expanded="true" signature="1463:1492" ph="..." />
+                <marker date="1523640515387" expanded="true" signature="1655:1664" ph="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/resources/views/admin/service/create_edit.blade.php" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER">
+    <package-json value="$PROJECT_DIR$/package.json" />
+  </component>
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <gulpfiles>
+      <GulpfileState>
+        <gulpfile-path>$PROJECT_DIR$/gulpfile.js</gulpfile-path>
+      </GulpfileState>
+    </gulpfiles>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true">
+    <include_path>
+      <path value="$PROJECT_DIR$/vendor/symfony/console" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/diff" />
+      <path value="$PROJECT_DIR$/vendor/symfony/process" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/version" />
+      <path value="$PROJECT_DIR$/vendor/symfony/debug" />
+      <path value="$PROJECT_DIR$/vendor/barryvdh/laravel-debugbar" />
+      <path value="$PROJECT_DIR$/vendor/symfony/polyfill-php56" />
+      <path value="$PROJECT_DIR$/vendor/symfony/polyfill-util" />
+      <path value="$PROJECT_DIR$/vendor/symfony/var-dumper" />
+      <path value="$PROJECT_DIR$/vendor/orangehill/iseed" />
+      <path value="$PROJECT_DIR$/vendor/mews/captcha" />
+      <path value="$PROJECT_DIR$/vendor/symfony/http-kernel" />
+      <path value="$PROJECT_DIR$/vendor/symfony/dom-crawler" />
+      <path value="$PROJECT_DIR$/vendor/symfony/finder" />
+      <path value="$PROJECT_DIR$/vendor/symfony/routing" />
+      <path value="$PROJECT_DIR$/vendor/zizaco/entrust" />
+      <path value="$PROJECT_DIR$/vendor/symfony/css-selector" />
+      <path value="$PROJECT_DIR$/vendor/symfony/event-dispatcher" />
+      <path value="$PROJECT_DIR$/vendor/symfony/translation" />
+      <path value="$PROJECT_DIR$/vendor/symfony/polyfill-mbstring" />
+      <path value="$PROJECT_DIR$/vendor/tijsverkoyen/css-to-inline-styles" />
+      <path value="$PROJECT_DIR$/vendor/symfony/http-foundation" />
+      <path value="$PROJECT_DIR$/vendor/symfony/yaml" />
+      <path value="$PROJECT_DIR$/vendor/julien-c/iso3166" />
+      <path value="$PROJECT_DIR$/vendor/phpunit/php-file-iterator" />
+      <path value="$PROJECT_DIR$/vendor/phpunit/php-timer" />
+      <path value="$PROJECT_DIR$/vendor/phpunit/php-text-template" />
+      <path value="$PROJECT_DIR$/vendor/phpunit/php-token-stream" />
+      <path value="$PROJECT_DIR$/vendor/phpunit/phpunit-mock-objects" />
+      <path value="$PROJECT_DIR$/vendor/phpunit/php-code-coverage" />
+      <path value="$PROJECT_DIR$/vendor/maximebf/debugbar" />
+      <path value="$PROJECT_DIR$/vendor/phpunit/phpunit" />
+      <path value="$PROJECT_DIR$/vendor/webmozart/assert" />
+      <path value="$PROJECT_DIR$/vendor/jakub-onderka/php-console-highlighter" />
+      <path value="$PROJECT_DIR$/vendor/jakub-onderka/php-console-color" />
+      <path value="$PROJECT_DIR$/vendor/yajra/laravel-datatables-oracle" />
+      <path value="$PROJECT_DIR$/vendor/propaganistas/laravel-phone" />
+      <path value="$PROJECT_DIR$/vendor/mockery/mockery" />
+      <path value="$PROJECT_DIR$/vendor/phpspec/prophecy" />
+      <path value="$PROJECT_DIR$/vendor/fzaninotto/faker" />
+      <path value="$PROJECT_DIR$/vendor/maatwebsite/excel" />
+      <path value="$PROJECT_DIR$/vendor/nesbot/carbon" />
+      <path value="$PROJECT_DIR$/vendor/dnoegel/php-xdg-base-dir" />
+      <path value="$PROJECT_DIR$/vendor/laracasts/generators" />
+      <path value="$PROJECT_DIR$/vendor/classpreloader/classpreloader" />
+      <path value="$PROJECT_DIR$/vendor/giggsey/libphonenumber-for-php" />
+      <path value="$PROJECT_DIR$/vendor/nikic/php-parser" />
+      <path value="$PROJECT_DIR$/vendor/ramsey/uuid" />
+      <path value="$PROJECT_DIR$/vendor/giggsey/locale" />
+      <path value="$PROJECT_DIR$/vendor/phpdocumentor/reflection-docblock" />
+      <path value="$PROJECT_DIR$/vendor/phpdocumentor/type-resolver" />
+      <path value="$PROJECT_DIR$/vendor/phpdocumentor/reflection-common" />
+      <path value="$PROJECT_DIR$/vendor/laravelcollective/html" />
+      <path value="$PROJECT_DIR$/vendor/laravel/framework" />
+      <path value="$PROJECT_DIR$/vendor/guzzlehttp/psr7" />
+      <path value="$PROJECT_DIR$/vendor/mtdowling/cron-expression" />
+      <path value="$PROJECT_DIR$/vendor/doctrine/instantiator" />
+      <path value="$PROJECT_DIR$/vendor/doctrine/inflector" />
+      <path value="$PROJECT_DIR$/vendor/league/flysystem" />
+      <path value="$PROJECT_DIR$/vendor/composer" />
+      <path value="$PROJECT_DIR$/vendor/league/fractal" />
+      <path value="$PROJECT_DIR$/vendor/swiftmailer/swiftmailer" />
+      <path value="$PROJECT_DIR$/vendor/monolog/monolog" />
+      <path value="$PROJECT_DIR$/vendor/psr/http-message" />
+      <path value="$PROJECT_DIR$/vendor/psr/log" />
+      <path value="$PROJECT_DIR$/vendor/hamcrest/hamcrest-php" />
+      <path value="$PROJECT_DIR$/vendor/jenssegers/imagehash" />
+      <path value="$PROJECT_DIR$/vendor/paragonie/random_compat" />
+      <path value="$PROJECT_DIR$/vendor/predis/predis" />
+      <path value="$PROJECT_DIR$/vendor/jeremeamia/SuperClosure" />
+      <path value="$PROJECT_DIR$/vendor/cviebrock/image-validator" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/global-state" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/comparator" />
+      <path value="$PROJECT_DIR$/vendor/intervention/image" />
+      <path value="$PROJECT_DIR$/vendor/vlucas/phpdotenv" />
+      <path value="$PROJECT_DIR$/vendor/phpoffice/phpexcel" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/environment" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/exporter" />
+      <path value="$PROJECT_DIR$/vendor/psy/psysh" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/recursion-context" />
+    </include_path>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="1221" />
+    <option name="y" value="39" />
+    <option name="width" value="1294" />
+    <option name="height" value="703" />
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource ProjectPane="true" />
+      <sortByType />
+      <manualOrder />
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scratches" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="laravel-admin" type="b2602c69:ProjectViewProjectNode" />
+              <item name="laravel-admin" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="laravel-admin" type="b2602c69:ProjectViewProjectNode" />
+              <item name="laravel-admin" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="app" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="laravel-admin" type="b2602c69:ProjectViewProjectNode" />
+              <item name="laravel-admin" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="app" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Http" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="laravel-admin" type="b2602c69:ProjectViewProjectNode" />
+              <item name="laravel-admin" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="app" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Models" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="laravel-admin" type="b2602c69:ProjectViewProjectNode" />
+              <item name="laravel-admin" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="resources" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="laravel-admin" type="b2602c69:ProjectViewProjectNode" />
+              <item name="laravel-admin" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="resources" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="views" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="laravel-admin" type="b2602c69:ProjectViewProjectNode" />
+              <item name="laravel-admin" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="resources" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="views" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="admin" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="laravel-admin" type="b2602c69:ProjectViewProjectNode" />
+              <item name="laravel-admin" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="resources" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="views" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="admin" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="category" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="laravel-admin" type="b2602c69:ProjectViewProjectNode" />
+              <item name="laravel-admin" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="resources" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="views" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="admin" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="service" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="settings.editor.selected.configurable" value="configurable.group.appearance" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false">
+    <option name="remove_strategy" value="false" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="13136637-6236-4332-a377-b8dfaa6398f7" name="Default" comment="" />
+      <created>1526071908085</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1526071908085</updated>
+      <workItem from="1526071915197" duration="1222000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="1222000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="1272" y="-8" width="1382" height="744" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="npm" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Gulp" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager />
+    <watches-manager />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/Admin/CategoryController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="176">
+          <caret line="42" column="50" lean-forward="false" selection-start-line="42" selection-start-column="8" selection-end-line="42" selection-end-column="50" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Models/Category.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="18" column="5" lean-forward="false" selection-start-line="15" selection-start-column="4" selection-end-line="18" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/admin/category/delete.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/admin/category/index.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <marker date="1523640515387" expanded="true" signature="9:44" ph="..." />
+            <marker date="1523640515387" expanded="true" signature="81:88" ph="..." />
+            <marker date="1523640515387" expanded="true" signature="93:129" ph="..." />
+            <marker date="1523640515387" expanded="true" signature="178:184" ph="..." />
+            <marker date="1523640515387" expanded="true" signature="310:339" ph="..." />
+            <marker date="1523640515387" expanded="true" signature="377:412" ph="..." />
+            <marker date="1523640515387" expanded="true" signature="685:714" ph="..." />
+            <marker date="1523640515387" expanded="true" signature="746:780" ph="..." />
+            <marker date="1523640515387" expanded="true" signature="894:919" ph="..." />
+            <marker date="1523640515387" expanded="true" signature="1110:1141" ph="..." />
+            <marker date="1523640515387" expanded="true" signature="1195:1233" ph="..." />
+            <marker date="1523640515387" expanded="true" signature="1286:1323" ph="..." />
+            <marker date="1523640515387" expanded="true" signature="1376:1413" ph="..." />
+            <marker date="1523640515387" expanded="true" signature="1463:1492" ph="..." />
+            <marker date="1523640515387" expanded="true" signature="1655:1664" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/admin/category/create_edit.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-425">
+          <caret line="16" column="18" lean-forward="false" selection-start-line="16" selection-start-column="18" selection-end-line="16" selection-end-column="18" />
+          <folding>
+            <marker date="1523482458360" expanded="true" signature="9:30" ph="..." />
+            <marker date="1523482458360" expanded="true" signature="59:68" ph="..." />
+            <marker date="1523482458360" expanded="true" signature="75:91" ph="..." />
+            <marker date="1523482458360" expanded="true" signature="96:237" ph="..." />
+            <marker date="1523482458360" expanded="true" signature="250:358" ph="..." />
+            <marker date="1523482458360" expanded="true" signature="549:645" ph="..." />
+            <marker date="1523482458360" expanded="true" signature="703:763" ph="..." />
+            <marker date="1523482458360" expanded="true" signature="849:959" ph="..." />
+            <marker date="1523482458360" expanded="true" signature="1017:1084" ph="..." />
+            <marker date="1523482458360" expanded="true" signature="1342:1375" ph="..." />
+            <marker date="1523482458360" expanded="true" signature="1539:1571" ph="..." />
+            <marker date="1523482458360" expanded="true" signature="1751:1767" ph="..." />
+            <marker date="1523482458360" expanded="true" signature="1791:1818" ph="..." />
+            <marker date="1523482458360" expanded="true" signature="1865:1893" ph="..." />
+            <marker date="1523482458360" expanded="true" signature="1974:1989" ph="..." />
+            <marker date="1523482458360" expanded="true" signature="2012:2021" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/admin/service/create_edit.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="792">
+          <caret line="36" column="13" lean-forward="false" selection-start-line="36" selection-start-column="13" selection-end-line="36" selection-end-column="13" />
+          <folding>
+            <marker date="1526072552497" expanded="true" signature="9:30" ph="..." />
+            <marker date="1526072552497" expanded="true" signature="59:68" ph="..." />
+            <marker date="1526072552497" expanded="true" signature="75:90" ph="..." />
+            <marker date="1526072552497" expanded="true" signature="95:233" ph="..." />
+            <marker date="1526072552497" expanded="true" signature="246:353" ph="..." />
+            <marker date="1526072552497" expanded="true" signature="522:571" ph="..." />
+            <marker date="1526072552497" expanded="true" signature="591:677" ph="..." />
+            <marker date="1526072552497" expanded="true" signature="735:795" ph="..." />
+            <marker date="1526072552497" expanded="true" signature="986:1086" ph="..." />
+            <marker date="1526072552497" expanded="true" signature="1144:1211" ph="..." />
+            <marker date="1526072552497" expanded="true" signature="1409:1495" ph="..." />
+            <marker date="1526072552497" expanded="true" signature="1553:1613" ph="..." />
+            <marker date="1526072552497" expanded="true" signature="1777:1793" ph="..." />
+            <marker date="1526072552497" expanded="true" signature="1777:3804" ph="..." />
+            <marker date="1526072552497" expanded="true" signature="1794:1855" ph="..." />
+            <marker date="1526072552497" expanded="true" signature="1809:1853" ph="..." />
+            <marker date="1526072552497" expanded="true" signature="1907:1953" ph="..." />
+            <marker date="1526072552497" expanded="true" signature="1977:2073" ph="..." />
+            <marker date="1526072552497" expanded="true" signature="2185:2208" ph="..." />
+            <marker date="1526072552497" expanded="true" signature="2239:2256" ph="..." />
+            <marker date="1526072552497" expanded="true" signature="2339:2354" ph="..." />
+            <marker date="1526072552497" expanded="true" signature="2360:2377" ph="..." />
+            <marker date="1526072552497" expanded="true" signature="2500:2515" ph="..." />
+            <marker date="1526072552497" expanded="true" signature="2521:2591" ph="..." />
+            <marker date="1526072552497" expanded="true" signature="2596:2613" ph="..." />
+            <marker date="1526072552497" expanded="true" signature="2968:3001" ph="..." />
+            <marker date="1526072552497" expanded="true" signature="3165:3197" ph="..." />
+            <marker date="1526072552497" expanded="true" signature="3377:3392" ph="..." />
+            <marker date="1526072552497" expanded="true" signature="3393:3445" ph="{...}" />
+            <marker date="1526072552497" expanded="true" signature="3416:3443" ph="..." />
+            <marker date="1526072552497" expanded="true" signature="3490:3518" ph="..." />
+            <marker date="1526072552497" expanded="true" signature="3599:3614" ph="..." />
+            <marker date="1526072552497" expanded="true" signature="3637:3646" ph="..." />
+            <marker date="1526072552497" expanded="true" signature="3702:3770" ph="..." />
+            <marker date="1526072552497" expanded="true" signature="3715:3769" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/admin/service/delete.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="17" column="0" lean-forward="true" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
+          <folding>
+            <marker date="1522086307894" expanded="true" signature="9:30" ph="..." />
+            <marker date="1522086307894" expanded="true" signature="41:50" ph="..." />
+            <marker date="1522086307894" expanded="true" signature="56:197" ph="..." />
+            <marker date="1522086307894" expanded="true" signature="257:294" ph="..." />
+            <marker date="1522086307894" expanded="true" signature="416:448" ph="..." />
+            <marker date="1522086307894" expanded="true" signature="571:604" ph="..." />
+            <marker date="1522086307894" expanded="true" signature="641:656" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>

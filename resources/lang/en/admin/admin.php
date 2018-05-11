@@ -1,0 +1,25 @@
+<?php
+
+return [
+    'settings' => 'settings',
+    'homepage' => 'homepage',
+    'home' => 'home',
+    'welcome' => 'welcome',
+    'action' => 'action',
+    'back' => 'back',
+    'created_at' => 'created at',
+    'updated_at' => 'updated at',
+    'language' => 'language',
+    'yes' => 'yes',
+    'no' => 'no',
+    'dashboard' => 'dashboard',
+    'view_detail' => 'view detail',
+    'news_categories' => 'news categories',
+    'news_items' => 'news items',
+    'photo_albums' => 'photo albums',
+    'photo_items' => 'photo items',
+    'users' => 'users',
+    'roles' => 'roles',
+    'blogs' => 'blogs',
+    'service' => 'service',
+    ];

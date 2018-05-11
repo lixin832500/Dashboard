@@ -1,0 +1,30 @@
+<?php
+
+return [
+
+    "title" => "title",
+    'new' => "new",
+    'created_at' => 'creat at',
+    'actions' => 'actions',
+    'edit' => 'edit',
+    'details' => 'details',
+    'delete' => 'delete',
+    'cancel' => 'cancel',
+    'ok' => 'OK',
+    "report" => "report",
+    'close' => 'close',
+    'back' => 'back',
+    'search' => 'search',
+    'start' => 'start',
+    'prev' => 'prev',
+    'next' => 'next',
+    'last' => 'last',
+    'filter' => 'filter',
+    'view' => 'view',
+    'show' => 'show',
+    'noresult' => 'no result',
+    'showmenu' => 'show menu',
+    'processing' => 'processing...',
+    'sort' => 'sort',
+    'emptytable' => 'empty table',
+];
